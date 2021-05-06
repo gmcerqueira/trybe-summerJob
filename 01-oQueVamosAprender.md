@@ -1,0 +1,3 @@
+# O que vamos aprender?
+
+No último bloco vimos que as _callbacks_ são bastante utilizadas para nos auxiliar na execução e tratamento de respostas de um código, sendo bem sucedido ou não. Apesar de ser amplamente utilizada no JavaScript, sua implementação pode se tornar pouco legível conforme evoluímos nosso código. Em junho de 2015, com o lançamento do EcmaScript [ES6 (ES2015)](https://medium.com/iclinic/es6-es2015-o-que-mudou-c22d9308f52d) foi introduzido o conceito de [**Promises**](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise) que iremos aprender agora.

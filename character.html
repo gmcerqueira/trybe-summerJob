@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Character Info</title>
+    <script src="./characterScript.js"></script>
+  </head>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      align-items: center;
+      display: flex;
+      flex-flow: column;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin: 30px;
+    }
+    .character {
+      text-align: center;
+      border: 1px solid rgb(180, 180, 180);
+      border-radius: 15px;
+      margin-top: 25px;
+      overflow: hidden;
+      width: fit-content;
+    }
+
+    .character-name,
+    .character-side {
+      background-color: rgb(117, 117, 117);
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+      margin: 00;
+      padding: 15px 30px;
+      text-align: center;
+      text-transform: capitalize;
+    }
+
+    .character-img {
+      border-radius: 50%;
+      margin: 30px 50px;
+    }
+  </style>
+  <body>
+    <h1>Personagem</h1>
+    <span class="error"></span>
+    <section class="character">
+      <h2 class="character-name"></h2>
+      <img class="character-img" src="" alt="Personagem">
+      <p class="character-side"></p>
+    </section>
+  </body>
+</html>
